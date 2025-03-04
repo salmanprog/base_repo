@@ -1,0 +1,130 @@
+//  in this we will customize libraries components
+
+.content {
+    height: 100vh;
+}
+
+.user-info img {
+    height: 120px;
+    width: 120px;
+}
+
+.image-upload {
+    border: 1px dashed #d9d9d9;
+    height: 20vh;
+    width: fit-content;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.btn-primary {
+    background: #343a40;
+    border: #343a40;
+}
+
+.ant-image-mask {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.ant-image {
+    width: 120px !important;
+    height: 120px;
+    overflow: hidden;
+}
+
+.ant-image .ant-image-img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.clearfix {
+    padding: 0 0 0 27px;
+}
+
+.demo-grid-block .ant-avatar {
+    width: 65px;
+    height: 65px;
+}
+
+form {
+    padding: 15px 30px !important;
+}
+
+.ant-form-item {
+    margin-bottom: 10px !important;
+}
+
+.p-2 {
+    padding: 0 !important;
+}
+
+
+.text-muted {
+    color: #000 !important;
+}
+
+.text-muted+p {
+    color: #6c757d !important;
+    font-size: 12px;
+}
+
+p {
+    margin: 0 !important;
+
+}
+
+.demo-grid-block {
+    margin-bottom: 17px;
+}
+
+.color-black {
+    color: #000 !important;
+}
+
+.color-grey {
+    color: #6c757d !important;
+}
+
+.btn-dark {
+    margin-top: 10px;
+}
+
+.ant-upload.ant-upload-select img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1399px) {
+    .clearfix {
+        padding: 0 0 0 14px;
+    }
+}
+
+.ant-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.ant-upload div {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+aside {
+    flex: 0 0 230px !important;
+    max-width: 230px !important;
+    min-width: 230px !important;
+    width: 230px !important;
+}
